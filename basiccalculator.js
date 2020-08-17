@@ -24,7 +24,7 @@ for (let i = 0; i < s.length; i++) {
     } else if (curr == '-') {
         sign = -1
 
-    //Get the entire number, then add it to the temp result usnig the sign
+    //Get the entire number, then add it to the temp result using the sign
     } else if (curr >= '0' && curr <= '9') {
         let num = curr
         while (s[i + 1] >= '0' && s[i + 1] <= '9' && (i + 1) < s.length) {
